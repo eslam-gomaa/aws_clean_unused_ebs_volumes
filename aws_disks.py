@@ -14,8 +14,8 @@ class clean_AWS_unused_volumes:
     """
     def __init__(self):
         self.region = 'us-east-1'
-        self.access_key = 'AKIAWKVW3GBOOTMS27UG'
-        self.secret_key = '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'
+        self.access_key = 'AKIA3DU6IGM577NR6G4I'
+        self.secret_key = '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'
         self.ask_before_delete = True
         self.ec2_client = None
         self.cloudTrail_client = None
